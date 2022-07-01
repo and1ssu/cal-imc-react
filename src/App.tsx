@@ -12,7 +12,6 @@ const  App = () =>  {
         <div className={styles.leftSide}> 
             <h1>Calcule o Seu IMC</h1>
             <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
-        
         </div>
 
         <div className={styles.rightSide}> 
