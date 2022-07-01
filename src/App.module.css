@@ -1,0 +1,35 @@
+* { box-sizing: border-box;}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+}
+
+.logo {
+  width: 150px;
+  
+}
+
+.headerContainer{
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.container{
+    display: flex;
+    max-width: 900px;
+    margin:  auto;
+}
+
+.container .leftSide{
+    flex: 1;
+    margin-right: 40px;
+}
+
+.container .rightSide{
+    flex: 1;
+    margin-left: 40px;
+}
